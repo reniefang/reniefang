@@ -1,0 +1,28 @@
+---
+title: "这是我的第一次作业+方琳芝+2015201404"
+author: "方琳芝"
+date: "2017-10-20"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+---
+
+## 第一插入图片
+这是我的第一次作业的截图。
+```{r, echo=FALSE,out.width = "1000px"}
+knitr::include_graphics("pic/zaza.png")
+```
+---
+
+##第二导入数据
+1. 该数据有5894个案例,694个变量
+2. 调查数据中中共党员有4817人
+3. 绘制图形
+
+##第三绘制条形图
+```{r, echo=FALSE,out.width = "1000px"}
+knitr::include_graphics("Rplot.png")
+```
